@@ -1,28 +1,35 @@
 import React from "react";
-import { graphql, Link, useStaticQuery } from "gatsby";
+import { useStaticQuery, graphql } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import ProjectPreview from "../components/project-preview";
 import Intro from "../components/intro";
 import Services from "../components/services";
 import About from "../components/about";
 import Projects from "../components/projects";
+import Header from "../components/header";
 
 
 const IndexPage = () => {
 
-
+  const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
 
   return (
       <Layout pageTitle="David Kantor">
         <SEO title="Home" />
+        <Header siteTitle={data.site.siteMetadata.title} />
         <Intro />
         <Services />
         <About />
         <Projects />
-
-        <Link to="/project-page-2/">Go to page 2</Link> <br />
       </Layout>
   );
 };

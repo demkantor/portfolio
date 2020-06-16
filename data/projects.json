@@ -4,13 +4,104 @@
         "slug": "beats-on-point",
         "url": "https://github.com/demkantor/beats_on_point",
         "image": "./images/beats_on_point.png",
+        "tech": "React, node, express, redux, sagas, axios, JavaScript, PostgreSQL",
         "description": "A full functional mobile first web-app created to allow user an easy way to find local shows"
+
     },
     {
         "title": "Games by David",
         "slug": "games-by-david",
         "url": "https://github.com/demkantor/Games-By-David",
         "image": "./images/beats_on_point.png",
-        "description": "A web-app filled with fun mini games that will keep you entertained for hours"
+        "tech": "React, node, express, redux, sagas, axios, JavaScript, PostgreSQL",
+        "description": "A web-app filled with fun mini games that will keep you entertained for hours."
+    },
+    {
+        "title": "Svenplan",
+        "slug": "svenplan",
+        "url": "https://github.com/demkantor/svenplan",
+        "image": "./images/beats_on_point.png",
+        "tech": "React, node, express, redux, sagas, axios, JavaScript, PostgreSQL",
+        "description": "Built for a client this web-app allows users to create workflows for their team."
+    },
+    {
+        "title": "Anti-Social-Network",
+        "slug": "anti-social-network",
+        "url": "https://github.com/demkantor/anti-social-media-client",
+        "image": "./images/beats_on_point.png",
+        "tech": "React, firebase, redux, sagas, axios, JavaScript, web tokens, Material UI",
+        "description": "A social median app in the vein of twitter that allows users to create profiles and post messages."
+    },
+    {
+        "title": "mini-apps",
+        "slug": "mini-apps",
+        "url": "https://github.com/demkantor/mini-apps",
+        "image": "./images/beats_on_point.png",
+        "tech": "React, JavaScript",
+        "description": "A collection of small projects showcasing abity to componetize features and use a virety in a single project."
+    },
+    {
+        "title": "Flutter Tourism",
+        "slug": "flutter-tourism",
+        "url": "https://github.com/demkantor/flutter-tourism",
+        "image": "./images/beats_on_point.png",
+        "tech": "Flutter, Dart, Material UI",
+        "description": "A mobile app built for both android and ios that allows users to see different parts of the world."
+    },
+    {
+        "title": "Developers Blog",
+        "slug": "developers-blog",
+        "url": "https://github.com/demkantor/developers_blog",
+        "image": "./images/beats_on_point.png",
+        "tech": "Gatsby, React, JavaScript, GraphQL",
+        "description": "A website to showcase a developers journey and teach readers along the way."
+    },
+    {
+        "title": "Mongo Task Manager",
+        "slug": "task-manager",
+        "url": "https://github.com/demkantor/task-manager-angular-node-mongo",
+        "image": "./images/beats_on_point.png",
+        "tech": "Angular, node, express, redux, TypeScript, MongoDB, SCSS, Bulma",
+        "description": "A unique take on the traditional task manager app that uses authentication and authourization with an intuitive ui."
+    },
+    {
+        "title": "Calendar Vue",
+        "slug": "calendar-vue",
+        "url": "https://github.com/demkantor/Calendar-Vue",
+        "image": "./images/beats_on_point.png",
+        "tech": "Vue, JavaScript, Firebase",
+        "description": "A personal calendar app allows users to easily add reminders and view by day, week, month or year."
+    },
+    {
+        "title": "Skatepark Geolocator",
+        "slug": "skatepark-geolocator",
+        "url": "https://github.com/demkantor/geolocator",
+        "image": "./images/beats_on_point.png",
+        "tech": "JavaScript, node, express, Mongo-atlas, MapBox",
+        "description": "A web-app that allows users to easily find skateparks near them."
+    },
+    {
+        "title": "Real Time Chat",
+        "slug": "real-time-chat",
+        "url": "https://github.com/demkantor/real-time-chat",
+        "image": "./images/beats_on_point.png",
+        "tech": "JavaScript, node, express, socket.io",
+        "description": "A real time chat client that allows user to communicate in private rooms."
+    },
+    {
+        "title": "React Radio",
+        "slug": "react-radio",
+        "url": "https://github.com/demkantor/react-radio",
+        "image": "./images/beats_on_point.png",
+        "tech": "JavaScript, React, Electron",
+        "description": "A Linux desktop app that allows users to cycle through and listen to various internet radio stations live."
+    },
+    {
+        "title": "Task-Master",
+        "slug": "task-master",
+        "url": "https://github.com/demkantor/Chien-Task-Master",
+        "image": "./images/beats_on_point.png",
+        "tech": "Python, psycopg, flask, sqlalchemy, PostgreSQL, SQLite",
+        "description": "A Linux desktop app that allows users to cycle through and listen to various internet radio stations live."
     }
 ]

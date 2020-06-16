@@ -1,6 +1,8 @@
 import React from 'react';
 
+// only thing to always display at the bottom of each page
 const Footer = () => (
+
     <footer className="footer">
         <a href="mailto:davidedwardkantor@gmail.com" className="footer__link">davidedwardkantor@gmail.com</a>
         <ul className="social-list">
@@ -31,6 +33,7 @@ const Footer = () => (
             </li>
         </ul>
     </footer>
+    
 );
 
 

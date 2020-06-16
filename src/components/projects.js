@@ -12,6 +12,7 @@ const Projects = () => {
           node {
             title
             slug
+            tech
             description
             image {
               childImageSharp {
@@ -41,6 +42,7 @@ const Projects = () => {
                     const title = project.title;
                     const description = project.description;
                     const slug = project.slug;
+                    const tech = project.tech;
                     const imageData = project.image.childImageSharp.fluid;
 
                     return (
@@ -48,13 +50,14 @@ const Projects = () => {
                             title={title}
                             description={description}
                             slug={slug}
+                            tech={tech}
                             imageData={imageData}
                         />
                     )
                 })}
             </div>
         </section>
-        );
+    );
 };
 
 

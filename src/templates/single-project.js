@@ -10,6 +10,7 @@ query ($slug: String!) {
       title
       description
       url
+      tech
       image {
         childImageSharp {
           fluid {
@@ -26,6 +27,7 @@ const ProjectTemplate = ({ data }) => {
     const project = data.projectsJson;
     const title = project.title;
     const url = project.url;
+    const tech = project.tech;
     const description = project.description;
     const imageData = project.image.childImageSharp.fluid;
 
@@ -34,6 +36,7 @@ const ProjectTemplate = ({ data }) => {
             <ProjectSlug
                 title={title}
                 url={url}
+                tech={tech}
                 description={description}
                 imageData={imageData} />
         </Layout>

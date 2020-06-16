@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types"
+import { StaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image"
+
+
 
 class Header extends Component {
 
@@ -15,7 +19,26 @@ class Header extends Component {
     return (
       <header>
         <div className="logo">
-            <img src="images/david-kantor-icon.png" alt="" />
+        <StaticQuery 
+                    query={graphql`
+                    query {
+                        file(relativePath: { eq: "david-icon.jpg" }) {
+                        childImageSharp {
+                          fixed(width: 125, height: 125) {
+                                ...GatsbyImageSharpFixed
+                            }
+                        }
+                        }
+                    }
+                  `}
+                   render={data => (
+                    <Img
+                      className="logo-img"
+                      fixed={data.file.childImageSharp.fixed}
+                      alt="Me smiling"
+                    />
+                  )}
+                />
         </div>
         <button className="nav-toggle" aria-label="toggle navigation" onClick={this.openNav}>
             <span className="hamburger"></span>

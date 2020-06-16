@@ -138,6 +138,13 @@ header {
     max-width: 100px;
 }
 
+.logo-img {
+    box-shadow: var(--bs);
+    grid-area: img;
+    position: relative;
+    z-index: 2;
+}
+
 .nav {
     position: fixed;
     background: var(--clr-dark);
@@ -445,4 +452,12 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.tech > span {
+    color: var(--clr-accent-secondary);
+}
+
+.project-image {
+    height: 25em;
 }
