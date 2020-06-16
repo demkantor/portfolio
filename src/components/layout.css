@@ -1,3 +1,6 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400|Railway:400,,700&display=swap");
+
 *,
 *::before,
 *::after {
@@ -5,17 +8,17 @@
 }
 
 :root {
-    --ff-primary: 'Lora', serif;
+    --ff-primary: 'Railway', serif;
     --ff-secondary: 'Roboto Slab', serif;
+    --ff-tertiary: 'Lora', serif;
     
     --fw-reg: 400;
     --fw-bold: 700;
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    /* --clr-accent: #f8333c; */
     --clr-accent: #6093cb;
-    
+    --clr-accent-secondary: #f8333c;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;

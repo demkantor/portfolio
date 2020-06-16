@@ -22,23 +22,23 @@ class Header extends Component {
         </button>
         <nav className="nav">
             <ul className="nav__list">
-                <li className="nav__item" onClick={this.closeNav}>
-                  <a href="#home" className="nav__link">
+                <li className="nav__item">
+                  <a href="#home" className="nav__link" onClick={this.closeNav}>
                     Home
                   </a>
                 </li>
-                <li className="nav__item" onClick={this.closeNav}>
-                  <a href="#services" className="nav__link">
+                <li className="nav__item">
+                  <a href="#services" className="nav__link" onClick={this.closeNav}>
                     My Services
                   </a>
                 </li>
-                <li className="nav__item" onClick={this.closeNav}>
-                  <a href="#about" className="nav__link">
+                <li className="nav__item">
+                  <a href="#about" className="nav__link" onClick={this.closeNav}>
                     About me
                   </a>
                 </li>
-                <li className="nav__item" onClick={this.closeNav}>
-                  <a href="#work" className="nav__link">
+                <li className="nav__item">
+                  <a href="#work" className="nav__link" onClick={this.closeNav}>
                     My Work
                   </a>
                 </li>

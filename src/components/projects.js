@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Projects = () => (
     <section className="my-work" id="work">
         <h2 className="section__title section__title--work">

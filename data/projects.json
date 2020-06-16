@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Beats on Point",
+        "slug": "beats-on-point",
+        "url": "https://github.com/demkantor/beats_on_point",
+        "image": "./images/beats_on_point.png",
+        "description": "A full functional mobile first web-app created to allow user an easy way to find local shows"
+    },
+    {
+        "title": "Games by David",
+        "slug": "games-by-david",
+        "url": "https://github.com/demkantor/Games-By-David",
+        "image": "./images/beats_on_point.png",
+        "description": "A web-app filled with fun mini games that will keep you entertained for hours"
+    }
+]
