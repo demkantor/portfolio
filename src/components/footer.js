@@ -5,6 +5,10 @@ const Footer = () => (
 
     <footer className="footer">
         <a href="mailto:davidedwardkantor@gmail.com" className="footer__link">davidedwardkantor@gmail.com</a>
+        <br/>
+        <a className="footer__link" href="assets/David-Kantor.pdf" target="_blank" download>
+            download resume
+        </a>
         <ul className="social-list">
             <li className="social-list__item">
                 <a className="social-list__link" href="https://github.com/demkantor">

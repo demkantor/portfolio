@@ -16,6 +16,7 @@
     --fw-bold: 700;
     
     --clr-light: #fff;
+    --clr-light-secondary: #fff5f5;
     --clr-dark: #303030;
     --clr-accent: #6093cb;
     --clr-accent-secondary: #f8333c;
@@ -283,7 +284,7 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url('../images/david-9.jpg');
+    background-image: url('../images/david-26.jpg');
     background-size: cover;
     color: var(--clr-light);
     text-align: center;
@@ -309,6 +310,8 @@ header {
 }
 
 .service {
+    background: rgba(255, 255, 255, 0.75);
+    color: var(--clr-dark);
     max-width: 500px;
     margin: 0 auto;
 }
@@ -459,5 +462,5 @@ header {
 }
 
 .project-image {
-    height: 25em;
+    display: block;
 }

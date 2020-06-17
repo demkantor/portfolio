@@ -1,17 +1,17 @@
 import React from 'react';
 import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image"
+import Img from "gatsby-image";
 
 const Intro = () => {
 
     const data = useStaticQuery(graphql`
         query {
-            file(relativePath: { eq: "david-29.jpg" }) {
-            childImageSharp {
-                fluid {
-                    ...GatsbyImageSharpFluid
+                file(relativePath: { eq: "david-29.jpg" }) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
                 }
-            }
             }
         }
         `);
