@@ -86,6 +86,16 @@ strong { font-weight: var(--fw-bold) }
     transform: scale(1.1);
 }
 
+.btn-container {
+    margin-top: .5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-top {
+    margin-left: .5em;
+}
+
 h1,
 h2,
 h3 {
@@ -379,6 +389,7 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: .8em;
 }
 
 .portfolio__item {
@@ -387,6 +398,10 @@ header {
 }
 
 .portfolio__img {
+    min-width: 100%;
+    min-height: 100%;
+    display: block;
+    object-fit: cover;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;

@@ -6,13 +6,15 @@ import Img from 'gatsby-image';
 const ProjectSlug = ({ imageData, title, description, url, tech }) => (
 
     <>
-        <Link to="/">&larr; back to all projects</Link>
+        <div className="btn-container btn-top">
+            <Link to="/" className="btn">&larr; back to all projects</Link>
+        </div>
         <section className="intro">
             <h1 className="section__title section__title--intro">
                 {title} <strong>@ demkantor</strong>
             </h1>
             <p className="section__subtitle section__subtitle--intro">{tech}</p>
-            <img src="images/david-25.jpg" alt="" className="intro__img" />
+            <img src="./images" alt="" className="intro__img"/>
         </section>
 
         <div className="portfolio-item-individual">
@@ -28,10 +30,10 @@ const ProjectSlug = ({ imageData, title, description, url, tech }) => (
                     {tech}
                 </span>
             </h3>
-
-            <a href={url}>View this project online &rarr;</a>
-
-            <Link to="/">&larr; back to all projects</Link>
+            <div className="btn-container">
+                <a href={url} className="btn">View this project online &rarr;</a>
+                <Link to="/" className="btn">&larr; back to all projects</Link>
+            </div>
         </div>
     </>
     
