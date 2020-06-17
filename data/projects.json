@@ -100,7 +100,7 @@
         "title": "Task-Master",
         "slug": "task-master",
         "url": "https://github.com/demkantor/Chien-Task-Master",
-        "image": "./images/flutter-tourism.png",
+        "image": "./images/task-master.png",
         "tech": "Python, psycopg, flask, sqlalchemy, PostgreSQL, SQLite",
         "description": "A Linux desktop app that allows users to cycle through and listen to various internet radio stations live."
     }

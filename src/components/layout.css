@@ -264,6 +264,10 @@ header {
     display: inline-block;
 }
 
+.project-img {
+    display: none;
+}
+
 @media (min-width: 600px) {
     .intro {
         display: grid;
@@ -284,6 +288,7 @@ header {
     }    
 
     .project-img {
+        display: block;
         opacity: 0;
     }
     
