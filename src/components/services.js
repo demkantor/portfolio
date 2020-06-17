@@ -7,15 +7,15 @@ const Services = () => (
         <div className="services">
             <div className="service">
                 <h3>Design + Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Skilled in both front-end and back-end development I utilize the latest technologies to insure every application is scaleable, secure and with a clean user interface. From small projects to large applications nothing is too big or too small. </p>
             </div>
             <div className="service">
-                <h3>E-Commerce</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3>Technology Agnostic</h3>
+                <p>My view is that all coding languages have a purpose and will pick up and learn what is best for the task at hand. Skilled in many frameworks and tech stacks I come with prior knowledge but more importantly the ability to learn fast as well as a desire to continuously be learning.</p>
             </div>
             <div className="service">
-                <h3>WordPress</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3>Tech I Use</h3>
+                <p>JavaScript, TypeScript, Dart, Python, HTML, CSS, React, Angular, Vue, Electron, Flutter, Gatsby, JQuerry, Node, Express, Axios, Redux, Sagas, GraphQL, AWS, Firebase, Mongo-Atlas, PostgreSQL, SQLite, NoSQL, MongoDB, Git, Linux, Android, and much more!</p>
             </div>
         </div>
         
