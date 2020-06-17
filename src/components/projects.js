@@ -3,6 +3,7 @@ import ProjectPreview from './project-preview';
 import { useStaticQuery, graphql } from "gatsby";
 
 
+// layout for project section on main page
 const Projects = () => {
 
     const data = useStaticQuery(graphql`

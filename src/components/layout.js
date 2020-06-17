@@ -5,7 +5,7 @@ import Footer from "./footer";
 import "./layout.css";
 
 
-
+// main layout for all pages
 const Layout = ({ children }) => {
 
   return (

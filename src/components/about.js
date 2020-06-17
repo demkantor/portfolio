@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
 
+// the about me section on main page
 const About = () => {
 
     const data = useStaticQuery(graphql`
@@ -16,7 +17,6 @@ const About = () => {
         }
     }
     `);
-
 
     return (
 

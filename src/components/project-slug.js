@@ -14,7 +14,8 @@ const ProjectSlug = ({ imageData, title, description, url, tech }) => (
                 {title} <strong>@ demkantor</strong>
             </h1>
             <p className="section__subtitle section__subtitle--intro">{tech}</p>
-            <img src="./images" alt="" className="intro__img"/>
+            <Img fluid={imageData} alt={title} className="intro__img project-img"/>
+            {/* <img src="./images" alt="" className="intro__img"/> */}
         </section>
 
         <div className="portfolio-item-individual">

@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image"
 
 
-
+// navbar icon, hamburger menu and links
 class Header extends Component {
 
   closeNav = () => {

@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+// layou for my services section on main page
 const Services = () => (
 
     <section className="my-services" id="services">

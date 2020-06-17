@@ -193,13 +193,15 @@ header {
 }
 
 .nav-toggle {
+    transform: scale(2);
+    transition: ease 300ms;
     padding: .5em;
     background: transparent;
     border: 0;
     cursor: pointer;
     position: absolute;
-    right: 1em;
-    top: 1em;
+    right: 2em;
+    top: 2em;
     z-index: 1000;
 }
 
@@ -280,6 +282,10 @@ header {
         position: relative;
         z-index: 2;
     }    
+
+    .project-img {
+        opacity: 0;
+    }
     
     .section__subtitle--intro {
         align-self: start;
@@ -289,6 +295,12 @@ header {
         position: relative;
         left: -1.5em;
         width: calc(100% + 1.5em);
+    }
+
+    .nav-toggle {
+        transform: scale(1);
+        right: 1em;
+        top: 1em;
     }
 }
 
