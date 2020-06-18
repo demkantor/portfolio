@@ -102,6 +102,14 @@
         "url": "https://github.com/demkantor/Chien-Task-Master",
         "image": "./images/task-master.png",
         "tech": "Python, psycopg, flask, sqlalchemy, PostgreSQL, SQLite",
-        "description": "A Linux desktop app that allows users to cycle through and listen to various internet radio stations live."
+        "description": "A Python built web-app that has a choice between two databases to store user input."
+    },
+    {
+        "title": "Covid-19 Tracker",
+        "slug": "covid-19",
+        "url": "https://github.com/demkantor/covid-19-tracker",
+        "image": "./images/covid.png",
+        "tech": "JavaScript, React, Axios, chart.js, Material UI",
+        "description": "A web-app that fetches Covid-19 data through an open api and gives a visual representation of key data globaly or by country."
     }
 ]

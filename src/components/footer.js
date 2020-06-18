@@ -1,4 +1,5 @@
 import React from 'react';
+import pdf from '../assets/David-Kantor.pdf'
 
 // only thing to always display at the bottom of each page
 const Footer = () => (
@@ -6,7 +7,7 @@ const Footer = () => (
     <footer className="footer">
         <a href="mailto:davidedwardkantor@gmail.com" className="footer__link">davidedwardkantor@gmail.com</a>
         <br/>
-        <a className="footer__link" href="assets/David-Kantor.pdf" target="_blank" download>
+        <a className="footer__link" href={pdf} >
             download resume
         </a>
         <ul className="social-list">
