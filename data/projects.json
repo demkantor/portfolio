@@ -111,5 +111,13 @@
         "image": "./images/covid.png",
         "tech": "JavaScript, React, Axios, chart.js, Material UI",
         "description": "A web-app that fetches Covid-19 data through an open api and gives a visual representation of key data globaly or by country."
+    },
+    {
+        "title": "The Library",
+        "slug": "library",
+        "url": "https://github.com/demkantor/my-little-library",
+        "image": "./images/library.png",
+        "tech": "JavaScript, React, Axios, Express, MongoDB",
+        "description": "A way to track and categorize personal collections of books, movies and anything else to be leant out. Allow users to check out a book with a due date."
     }
 ]
