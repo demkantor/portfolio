@@ -119,5 +119,13 @@
         "image": "./images/library.png",
         "tech": "JavaScript, React, Axios, Express, MongoDB",
         "description": "A way to track and categorize personal collections of books, movies and anything else to be leant out. Allow users to check out a book with a due date."
+    },
+    {
+        "title": "Weather",
+        "slug": "weather",
+        "url": "https://github.com/demkantor/weather",
+        "image": "./images/weather.png",
+        "tech": "JavaScript, React, Axios, Express",
+        "description": "User can search for weather around the world or locally. Get the five day forecast and show various highlights of that day."
     }
 ]
