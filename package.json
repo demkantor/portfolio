@@ -5,7 +5,7 @@
   "version": "0.2.1",
   "author": "David Kantor <demkantor@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.32.13",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.11.0",
     "gatsby-plugin-catch-links": "^2.10.0",
     "gatsby-plugin-manifest": "^2.12.1",
